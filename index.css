@@ -1,0 +1,626 @@
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+
+    background-color: #fff;
+}
+
+.index-first{
+    width: 100%;
+    height: 100%;
+    background-color: #5173ff;
+    position: relative;
+}
+.building{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.index-first img:first-child{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top:10%;
+    left:20%;
+}
+.index-first img:nth-child(2){
+    position: absolute;
+    width: 15%;
+    height: 13%;
+    left: 10%;
+    top:12%;
+
+}
+.index-first img:nth-child(3){
+    position: absolute;
+    top:21%;
+    right:22%;
+    width: 15%;
+    height: 10%;
+}
+.index-flight{
+    position: absolute;
+    right:10%;
+    top:30%;
+    width: 100%;
+    height: 30%;
+}
+#flight{
+    width: 80%;
+    height: 100%;
+
+}
+.index-star{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+#star{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+.index-cloud{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: 3;
+
+}
+#cloud{
+    width: 90%;
+    height: 100%;
+    top:8%;
+    left: 5%;
+}
+.index-end{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: 3;
+
+}
+#end{
+    width: 100%;
+    height: 100%;
+    top:10%;
+    left: 0;
+
+}
+.arrow{
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    width: 10%;
+    z-index: 3;
+}
+.index-second{
+    background-color: #000;
+    position: relative;
+}
+.wasBg{
+    width: 100%;
+    height: 100%;
+}
+.wasIT{
+    width: 60%;
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    top:40%;
+    z-index: 2;
+}
+.wasFarm{
+    width: 60%;
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    top:60%;
+    z-index: 2;
+}
+.wasStar{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top:20%;
+    left:20%;
+    z-index: 1;
+}
+.index-third{
+    background-color: #03172f;
+    position: relative;
+}
+.index-earlyBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+.earlyBg{
+    width: 100%;
+    height: 60%;
+}
+.index-earlyBuilding{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    left: 0;
+}
+.earlyBuilding{
+    width: 100%;
+    height: 100%;
+}
+
+.index-earlyTitle{
+    position: absolute;
+    width: 25%;
+    height: 5%;
+    left: 0;
+    top:10%;
+}
+.earlyTitle{
+    width: 100%;
+    height: 100%;
+}
+.index-lastBusStation{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: 0;
+    bottom: 0;
+}
+.lastBusStation{
+    width: 100%;
+    height: 100%;
+}
+.index-bus{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    left: 0;
+    bottom: 10%;
+}
+.bus{
+    width: 100%;
+    height: 100%;
+}
+.index-lastBusAvatar{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+}
+.lastBusAvatar{
+    width: 100%;
+    height: 100%;
+}
+.index-lastBusTitle{
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top:10%;
+    left: 0;
+}
+.lastBusTitle{
+    width: 100%;
+    height: 100%;
+}
+.myTeamBg{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top:0;
+    left: 0;
+}
+.myTeamFoot{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom:0;
+    left: 0;
+    background-color: #000;
+}
+.myTeamWall{
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    bottom:0;
+    right: 0;
+}
+.myTeamAvatar{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    top:23%;
+    right: 5%;
+}
+.myTeamTxt{
+    position: absolute;
+    width: 13%;
+    height: 3%;
+    top:32%;
+    left:15%;
+}
+.myTeamTxt01{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top:36%;
+    left:15%;
+}
+.myTeamTxt02{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top:42%;
+    left:15%;
+}
+.myTeamTxt03{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    top:48%;
+    left:15%;
+}
+.myteamWhereTxt{
+    width: 38%;
+    height: 10%;
+    position: absolute;
+    left: 31%;
+    bottom: 11%;
+}
+.index-fourth{
+    position: relative;
+    background-color: #302e5c;
+}
+.lightOffBg{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+}
+.lightOff{
+    width: 35%;
+    height: 85%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.cornerWall{
+    width: 20%;
+    height: 90%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.cornerTitle{
+    width: 53%;
+    height: 9%;
+    right: 0;
+    top: 7%;
+    position: absolute;
+}
+.index-clickGuide{
+    width: 50%;
+    height: 3%;
+    position: absolute;
+    left: 25%;
+    top:29%;
+}
+.clickGuide{
+    width: 100%;
+    height: 100%;
+}
+.index-fourth-in{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.index-fourth-in-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #1a7fdc;
+}
+.lightOn{
+    width: 35%;
+    height: 85%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+}
+.weKnowYou{
+    width: 50%;
+    height: 9%;
+    left: 30%;
+    top:25%;
+    position: absolute;
+    z-index: 3;
+}
+.lightOnBg{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:10%;
+    position: absolute;
+    z-index: 1;
+}
+.lightOnFlowers{
+    width: 25%;
+    height: 13%;
+    right: 5%;
+    bottom: -1%;
+    position: absolute;
+    z-index: 3;
+}
+
+.index-fifth{
+    background:url("cmbChina demo/images/aboutBg.jpg");
+    background-size: cover;
+    position: relative;
+}
+.index-footTa{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top:60%;
+}
+.index-footTa .footTa{
+    width:100%;
+    height: 100%;
+}
+.footCity{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top:0;
+    z-index: 1;
+}
+.footAvatar{
+    position: absolute;
+    width: 70%;
+    height: 35%;
+    top:15%;
+    left: 25%;
+    z-index: 3;
+}
+.footTx{
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    top:60%;
+    left: 25%;
+}
+.index-sixth{
+    background: url("cmbChina demo/images/runBg.jpg");
+    background-size: cover;
+    position: relative;
+}
+.index-runTa{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top:50%;
+}
+.index-runTa .runTa{
+    width:100%;
+    height: 100%;
+}
+
+.runAvatar{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top:10%;
+    left: 15%;
+
+}
+.runTx{
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    top:50%;
+    left: 25%;
+}
+.index-seven{
+    background-color: #4ADD9D;
+    position: relative;
+}
+.index-salaryTa{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top:60%;
+}
+.index-salaryTa .salaryTa{
+    width:100%;
+    height: 100%;
+}
+.salaryTx{
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    top:60%;
+    left: 20%
+}
+.salaryBg{
+    position: absolute;
+    width: 90%;
+    height: 55%;
+    top:5%;
+    left: 5%;
+}
+.salaryAvatar{
+    position: absolute;
+    width: 46%;
+    height: 35%;
+    top:9%;
+    left: 21%;
+}
+.index-eighth{
+    background-color: #B5EFFD;
+    position: relative;
+}
+.intro-txtContainer{
+    width: 96%;
+    height: 70%;
+    left: 2%;
+    top: 15%;
+    background-color: #FC5955;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+}
+.introTxt{
+    width: 94%;
+    height: 90%;
+    background-color: #EF3D38;
+    top:3%;
+    left: 3%;
+    position: absolute;
+    font-size: 18px;
+
+}
+.introTxt p{
+    color: white;
+    text-indent: 2em;
+    padding: 0 5px;
+    vertical-align: baseline;
+
+}
+.introTxt p:first-child{
+    margin-top: 30px;
+}
+.introLogo{
+    position: absolute;
+    width: 50%;
+    height: 8%;
+    left: 25%;
+    top:11%;
+    z-index: 4;
+}
+.introFlowers{
+    width:25% ;
+    height: 10%;
+    top:8%;
+    left:3%;
+    position: absolute;
+    z-index: 1;
+}
+.introCloudy{
+    width: 94%;
+    height: 70%;
+    left: 3%;
+    top:12.8%;
+    position: absolute;
+    z-index: 5;
+}
+.introStar{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    right: 30%;
+    bottom: 15%;
+    z-index: 5;
+}
+.introAvatar{
+    width: 34%;
+    height: 24%;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: 5;
+}
+.index-last{
+    background: url("cmbChina demo/images/endBg.png") #3e88f1;
+    background-size:100% 100%;
+    position: relative;
+}
+.endLogo{
+    position: absolute;
+    width: 54%;
+    height: 5%;
+    left: 23%;
+    top:10%;
+}
+.endTxt{
+    position: absolute;
+    width: 60%;
+    height: 11%;
+    left: 20%;
+    top:22%;
+}
+.endMail{
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    left: 20%;
+    top:36%;
+}
+.endClickGuide{
+    position: absolute;
+    width: 36%;
+    height: 3%;
+    left: 32%;
+    top:48%;
+}
+.endBottomTxt{
+    position: absolute;
+    width: 44%;
+    height: 4%;
+    left: 28%;
+    bottom:2%;
+}
+.index-endAvatar{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    left: 20%;
+    top:57%;
+}
+.endAvatar{
+    width: 100%;
+    height: 100%;
+}
+.index-endCloudys{
+    position: absolute;
+    width: 90%;
+    height: 75%;
+    left: 5%;
+    top:10%;
+}
+.endCloudys{
+    width: 100%;
+    height: 100%;
+}
+.music{
+    position: absolute;
+    width:15%;
+    height: 8%;
+    top:3%;
+    right: 1%;
+    z-index:10;
+}
+.music img{
+    width: 100%;
+    height: 100%;
+}
